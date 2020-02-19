@@ -39,12 +39,12 @@ export default {
       children: [
         {
           name: 'Create CRNs',
-          url: '/base/crnforms',
+          url: '/base/crnform',
           icon: 'icon-puzzle',
         },
         {
           name: 'CRN List',
-          url: '/base/cards',
+          url: '/base/crnlist',
           icon: 'icon-puzzle',
         }
       ],
@@ -56,22 +56,22 @@ export default {
       children: [
         {
           name: 'Create Memo',
-          url: '/buttons/buttons',
+          url: '/base/memoform',
           icon: 'icon-cursor',
         },
         {
           name: 'Create Payment Req',
-          url: '/buttons/button-dropdowns',
+          url: '/base/reqform',
           icon: 'icon-cursor',
         },
         {
           name: 'Memo List',
-          url: '/buttons/button-groups',
+          url: '/base/memolist',
           icon: 'icon-cursor',
         },
         {
           name: 'Payment Req List',
-          url: '/buttons/brand-buttons',
+          url: '/base/reqlist',
           icon: 'icon-cursor',
         },
       ],

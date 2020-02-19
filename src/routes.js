@@ -37,7 +37,13 @@ const Users = React.lazy(() => import('./views/Users/Users'));
 const User = React.lazy(() => import('./views/Users/User'));
 
 // New components
-const CRNForms = React.lazy(() => import('./views/Base/CRNForms'));
+const CrnForm = React.lazy(() => import('./views/Base/CrnForm'));
+const CrnList = React.lazy(() => import('./views/Base/CrnList'));
+const MemoForm = React.lazy(() => import('./views/Base/MemoForm'));
+const MemoList = React.lazy(() => import('./views/Base/MemoList'));
+const ReqForm = React.lazy(() => import('./views/Base/ReqForm'));
+const ReqList = React.lazy(() => import('./views/Base/ReqList'));
+
 
 // https://github.com/ReactTraining/react-router/tree/master/packages/react-router-config
 const routes = [
@@ -54,7 +60,14 @@ const routes = [
   { path: '/base/tabs', name: 'Tabs', component: Tabs },
   { path: '/base/breadcrumbs', name: 'Breadcrumbs', component: Breadcrumbs },
   //new component
-  { path: '/base/crnforms', name: 'Breadcrumbs', component: CRNForms },
+  { path: '/base/crnform', name: 'Breadcrumbs', component: CrnForm },
+  { path: '/base/reqform', name: 'Breadcrumbs', component: ReqForm },
+  { path: '/base/memoform', name: 'Breadcrumbs', component: MemoForm },
+  { path: '/base/crnlist', name: 'Breadcrumbs', component: CrnList },
+  { path: '/base/memolist', name: 'Breadcrumbs', component: MemoList },
+  { path: '/base/reqlist', name: 'Breadcrumbs', component: ReqList },
+
+
   //
   { path: '/base/carousels', name: 'Carousel', component: Carousels },
   { path: '/base/collapses', name: 'Collapse', component: Collapses },

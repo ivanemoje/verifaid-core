@@ -11,7 +11,7 @@ class Tables extends Component {
           <Col xs="12" lg="12">
             <Card>
               <CardHeader>
-                <i className="fa fa-align-justify"></i> All Cash Payment Memos
+                <i className="fa fa-align-justify"></i> All Cash Payment Requests
               </CardHeader>
               <CardBody>
                 <Table responsive bordered>
