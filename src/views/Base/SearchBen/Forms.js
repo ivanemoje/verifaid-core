@@ -86,83 +86,66 @@ class Forms extends Component {
                 <Table responsive bordered>
                   <thead>
                   <tr>
-                    <th>Cycle Code</th>
-                    <th>Settlement</th>
-                    <th>Households</th>
-                    <th>Individuals</th>
-                    <th>Totals</th>
-                    <th>Download</th>
+                    <th>Progres Number</th>
+                    <th>Beneficiary Details</th>
+                    <th>Bank Account</th>
+                    <th>Action</th>
                   </tr>
                   </thead>
                   <tbody>
                   <tr>
-                    <td>Cycle 3</td>
+                    <td>WA9-18H65429</td>
+                    <td> KIDEN, JOYCE</td>
+
+                    <td>1150036008624</td>
+                    <td>
+                      <Badge color="success">Edit</Badge>
+                      &nbsp; &nbsp;
+                      <Badge color="danger">Deactivate</Badge>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>WA9-18H36179</td>
+                    <td>HENRY, ROSE KIDEN </td>
+    
+                    <td>1150036008634</td>
+                    <td>
+                      <Badge color="success">Edit</Badge>
+                      &nbsp; &nbsp;
+                      <Badge color="danger">Deactivate</Badge>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>WA9-18H36180</td>
+                    <td>KIDEN, GRACE</td>
+               
+                    <td>1150036004524</td>
+                    <td>
+                      <Badge color="success">Edit</Badge>
+                      &nbsp; &nbsp;
+                      <Badge color="danger">Deactivate</Badge>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>WA9-18H36349</td>
+                    <td>LADU, CICILA KIDEN</td>
+       
+                    <td>1150036005682</td>
+                    <td>
+                      <Badge color="success">Edit</Badge>
+                      &nbsp; &nbsp;
+                      <Badge color="danger">Deactivate</Badge>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>WA9-18H55679</td>
                     <td>Lobule</td>
-                    <td>880</td>
-                    <td>3,400</td>
-                    <td>110,000,000</td>
+              
+                    <td>1150036005233</td>
                     <td>
-                    <Badge color="danger"><a href="#">PDF</a></Badge> 
-                    &nbsp; &nbsp;
-                    <Badge color="danger">PDF</Badge> 
-                    &nbsp; &nbsp;
-                      <Badge color="success">Excel</Badge>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Cycle 2</td>
-                    <td>Rhino</td>
-                    <td>8,400</td>
-                    <td>13,000</td>
-                    <td>340,000,000</td>
-                    <td>
-                    <Badge color="danger"><a href="#">PDF</a></Badge> 
-                    &nbsp; &nbsp;
-                    <Badge color="danger">PDF</Badge> 
-                    &nbsp; &nbsp;
-                      <Badge color="success">Excel</Badge>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Cycle 2</td>
-                    <td>Lobule</td>
-                    <td>890</td>
-                    <td>4,300</td>
-                    <td>120,000,000</td>
-                    <td>
-                    <Badge color="danger"><a href="#">PDF</a></Badge> 
-                    &nbsp; &nbsp;
-                    <Badge color="danger">PDF</Badge> 
-                    &nbsp; &nbsp;
-                      <Badge color="success">Excel</Badge>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Cycle 1</td>
-                    <td>Rhino</td>
-                    <td>4,000</td>
-                    <td>12,000</td>
-                    <td>310,000,000</td>
-                    <td>
-                    <Badge color="danger"><a href="#" color="white">PDF</a></Badge> 
-                    &nbsp; &nbsp;
-                    <Badge color="danger">PDF</Badge> 
-                    &nbsp; &nbsp;
-                      <Badge color="success">Excel</Badge>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Cycle 1</td>
-                    <td>Lobule</td>
-                    <td>750</td>
-                    <td>2,300</td>
-                    <td>80,000,000</td>
-                    <td>
-                    <Badge color="danger"><a href="#">PDF</a></Badge> 
-                    &nbsp; &nbsp;
-                    <Badge color="danger">PDF</Badge> 
-                    &nbsp; &nbsp;
-                      <Badge color="success">Excel</Badge>
+                      <Badge color="success">Edit</Badge>
+                      &nbsp; &nbsp;
+                      <Badge color="danger">Deactivate</Badge>
                     </td>
                   </tr>
                   </tbody>
