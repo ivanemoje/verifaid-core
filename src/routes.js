@@ -44,6 +44,8 @@ const MemoList = React.lazy(() => import('./views/Base/MemoList'));
 const ReqForm = React.lazy(() => import('./views/Base/ReqForm'));
 const ReqList = React.lazy(() => import('./views/Base/ReqList'));
 
+const SearchBen = React.lazy(() => import('./views/Base/SearchBen'));
+
 
 // https://github.com/ReactTraining/react-router/tree/master/packages/react-router-config
 const routes = [
@@ -66,7 +68,7 @@ const routes = [
   { path: '/base/crnlist', name: 'Breadcrumbs', component: CrnList },
   { path: '/base/memolist', name: 'Breadcrumbs', component: MemoList },
   { path: '/base/reqlist', name: 'Breadcrumbs', component: ReqList },
-
+  { path: '/base/searchben', name: 'Breadcrumbs', component: SearchBen },
 
   //
   { path: '/base/carousels', name: 'Carousel', component: Carousels },

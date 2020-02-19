@@ -21,7 +21,7 @@ export default {
     },
     {
       name: 'Search Beneficiary',
-      url: '/theme/typography',
+      url: '/base/searchben',
       icon: 'icon-pencil',
     },
     {
