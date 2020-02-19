@@ -38,16 +38,23 @@ class DefaultHeader extends Component {
           <NavItem className="px-3">
             <NavLink to="#" className="nav-link">Settings</NavLink>
           </NavItem>
+          <NavItem className="px-3">
+            <NavLink to="#" className="nav-link">Logout</NavLink>
+          </NavItem>
         </Nav>
         <Nav className="ml-auto" navbar>
+      
           <NavItem className="d-md-down-none">
-            <NavLink to="#" className="nav-link"><i className="icon-bell"></i><Badge pill color="danger">5</Badge></NavLink>
+            <NavLink to="#" className="nav-link"><i className="icon-user" name="Location"></i> Admin</NavLink> 
           </NavItem>
           <NavItem className="d-md-down-none">
-            <NavLink to="#" className="nav-link"><i className="icon-list"></i></NavLink>
+            <NavLink to="#" className="nav-link"></NavLink>
           </NavItem>
           <NavItem className="d-md-down-none">
-            <NavLink to="#" className="nav-link"><i className="icon-location-pin"></i></NavLink>
+            <NavLink to="#" className="nav-link"><i className="icon-location-pin" name="Location"></i>Arua</NavLink>
+          </NavItem>
+          <NavItem className="d-md-down-none">
+            <NavLink to="#" className="nav-link"></NavLink>
           </NavItem>
           <UncontrolledDropdown nav direction="down">
             <DropdownToggle nav>
@@ -70,7 +77,12 @@ class DefaultHeader extends Component {
             </DropdownMenu>
           </UncontrolledDropdown>
         </Nav>
-        <AppAsideToggler className="d-md-down-none" />
+        <Nav>
+        <NavItem className="d-md-down-none">
+            <NavLink to="#" className="nav-link"><i className="icon-list"></i></NavLink>
+          </NavItem>
+          </Nav>
+        {/* <AppAsideToggler className="d-md-down-none" /> */}
         {/*<AppAsideToggler className="d-lg-none" mobile />*/}
       </React.Fragment>
     );

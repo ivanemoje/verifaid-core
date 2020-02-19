@@ -39,7 +39,7 @@ export default {
       children: [
         {
           name: 'Create CRNs',
-          url: '/base/breadcrumbs',
+          url: '/base/crnforms',
           icon: 'icon-puzzle',
         },
         {
