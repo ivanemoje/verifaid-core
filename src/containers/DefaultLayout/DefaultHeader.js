@@ -3,8 +3,10 @@ import { Link, NavLink } from 'react-router-dom';
 import { Badge, UncontrolledDropdown, DropdownItem, DropdownMenu, DropdownToggle, Nav, NavItem } from 'reactstrap';
 import PropTypes from 'prop-types';
 
-import { AppAsideToggler, AppNavbarBrand, AppSidebarToggler } from '@coreui/react';
-import logo from '../../assets/img/brand/logo.svg'
+import {  AppNavbarBrand, AppSidebarToggler } from '@coreui/react';
+// Delete asset and line below
+// import logo from '../../assets/img/brand/logo.svg'
+import logo from '../../assets/img/brand/wfplogo.svg'
 import sygnet from '../../assets/img/brand/sygnet.svg'
 
 const propTypes = {
@@ -52,6 +54,12 @@ class DefaultHeader extends Component {
           </NavItem>
           <NavItem className="d-md-down-none">
             <NavLink to="#" className="nav-link"><i className="icon-location-pin" name="Location"></i>Arua</NavLink>
+          </NavItem>
+          <NavItem className="d-md-down-none">
+            <NavLink to="#" className="nav-link"></NavLink>
+          </NavItem>
+          <NavItem className="d-md-down-none">
+            <NavLink to="#" className="nav-link"><i className="icon-user" name="User"></i>Kampala User</NavLink>
           </NavItem>
           <NavItem className="d-md-down-none">
             <NavLink to="#" className="nav-link"></NavLink>
