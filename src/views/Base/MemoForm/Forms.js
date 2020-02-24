@@ -165,12 +165,12 @@ class Forms extends Component {
                     </FormGroup>
                   </Col>
                 </Row>
-
-               
-
-
-
               </CardBody>
+              <CardFooter>
+                <div className="form-actions">
+                  <Button type="submit" color="primary">Submit</Button>
+                </div>
+              </CardFooter>
             </Card>
           </Col>
           

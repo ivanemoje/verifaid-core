@@ -171,6 +171,11 @@ class Forms extends Component {
 
 
               </CardBody>
+              <CardFooter>
+                <div className="form-actions">
+                  <Button type="submit" color="primary">Submit</Button>
+                </div>
+              </CardFooter>
             </Card>
           </Col>
           
