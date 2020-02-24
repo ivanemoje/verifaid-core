@@ -7,7 +7,9 @@ import {  AppNavbarBrand, AppSidebarToggler } from '@coreui/react';
 // Delete asset and line below
 // import logo from '../../assets/img/brand/logo.svg'
 import logo from '../../assets/img/brand/wfplogo.svg'
-import sygnet from '../../assets/img/brand/sygnet.svg'
+// Delete asset and line below
+// import sygnet from '../../assets/img/brand/sygnet.svg'
+import sygnet from '../../assets/img/brand/wfpcrop.svg'
 
 const propTypes = {
   children: PropTypes.node,
