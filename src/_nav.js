@@ -158,7 +158,7 @@ export default {
       ],
     },
     {
-      name: 'Query Outputs',
+      name: 'Reconciliation',
       url: '/base/searchben',
       icon: 'icon-pencil',
     },
