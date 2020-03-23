@@ -131,31 +131,36 @@ export default {
       children: [
         {
           name: 'CRNS',
-          url: '/login',
+          url: '/theme/colors',
           icon: 'icon-graph',
         },
         {
           name: 'Bank Upload Reports',
-          url: '/register',
+          url: '/theme/colors',
           icon: 'fa-file-o',
         },
         {
           name: 'Equity Txn Reports',
-          url: '/500',
+          url: '/theme/colors',
           icon: 'icon-globe',
         },
         {
           name: 'Bank Dist Reports',
-          url: '/404',
+          url: '/theme/colors',
           icon: 'fa-television',
         },
         {
           name: 'GDT Dist Reports',
-          url: '/500',
+          url: '/theme/colors',
           icon: 'icon-layers',
         },
         
       ],
+    },
+    {
+      name: 'Query Outputs',
+      url: '/base/searchben',
+      icon: 'icon-pencil',
     },
     {
       name: 'AMEL',
@@ -169,6 +174,6 @@ export default {
       icon: 'icon-ban',
       attributes: { disabled: true },
     },
-
+    
   ],
 };
