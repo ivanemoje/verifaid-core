@@ -127,32 +127,32 @@ export default {
     {
       name: 'File Management',
       url: '/pages',
-      icon: 'icon-star',
+      icon: 'icon-briefcase',
       children: [
         {
           name: 'CRNS',
           url: '/login',
-          icon: 'icon-star',
+          icon: 'icon-graph',
         },
         {
           name: 'Bank Upload Reports',
           url: '/register',
-          icon: 'icon-star',
+          icon: 'fa-file-o',
         },
         {
           name: 'Equity Txn Reports',
           url: '/500',
-          icon: 'icon-star',
+          icon: 'icon-globe',
         },
         {
           name: 'Bank Dist Reports',
           url: '/404',
-          icon: 'icon-star',
+          icon: 'fa-television',
         },
         {
           name: 'GDT Dist Reports',
           url: '/500',
-          icon: 'icon-star',
+          icon: 'icon-layers',
         },
         
       ],
